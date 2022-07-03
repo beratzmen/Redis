@@ -1,9 +1,17 @@
-﻿
+﻿@{
+    var product = ViewBag.Product as Product;
+}
 <h1>
     Show sayfasındayızzz
 </h1>
 
 
-<p>
+@*<p>
     @ViewBag.Name
+</p>*@
+
+<p>
+    ID: @product.Id,
+    Name: @product.Name,
+    Price: @product.Price,
 </p>
