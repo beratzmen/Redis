@@ -40,3 +40,9 @@
       Redis cli girilirken "redis-cli --raw" komutu ile ayağa kaldırılırsa, Türkçe karakterlerin okunması sağlanır.
    </i>
 </p>
+
+<h2>IDistributedCacheRedis Project</h2>
+   <i>
+      IDistributed cache redis projesi, ProductsController içerisinde, key value şeklinde değerlerin cache üzerine kayıt edilmesi.
+      Bir class objesinin, json formatla birlikte cache üzerine yazılması ve aynı instance byteArray olarak cache kayıt edilmesi gerçekleştirildi.
+   </i>
